@@ -1,0 +1,19 @@
+# Test Case - Swag Labs Checkout
+
+Date: 13 Nov 2026
+Tester: Amelia
+Website: saucedemo.com
+
+## Scenario: Checkout 1 Product Until Complete
+
+Steps:
+1. Login with standard_user / secret_sauce - PASSED
+2. Select Sauce Labs Backpack $29.99 - PASSED
+3. Click Add to cart - PASSED, button changed to Remove, cart icon became 1
+4. Click cart icon, click CHECKOUT - PASSED
+5. Fill First Name, Last Name, Zip - PASSED
+6. Click CONTINUE, check Overview page - PASSED
+7. Click FINISH - PASSED
+
+Final Result: "Thank you for your order!" message appeared with green checkmark
+Status: PASSED ✅
